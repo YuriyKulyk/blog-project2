@@ -1,0 +1,9 @@
+.app-bar {
+    background-color: white;
+}
+.Title {
+    color: black;
+    font-family:'Inter'serif;
+    font-size: 20px;
+    font-weight: 700;
+}
