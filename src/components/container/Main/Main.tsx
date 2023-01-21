@@ -6,7 +6,7 @@ type Props = {}
 const Main = (props: Props) => {
     return (
         <Container
-            maxWidth="lg"
+            maxWidth="xl"
             sx={{
                 padding: '80px 0',
             }}

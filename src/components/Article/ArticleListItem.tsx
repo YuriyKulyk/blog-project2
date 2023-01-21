@@ -1,21 +1,21 @@
 import { Card, CardContent, CardActions, Button } from '@mui/material'
 import './ArticleListItem.css'
 
-type Props = {}
+type Props = {
+    title: string
+    desc: string
+}
 const ArticleListItem = (props: Props) => {
     return (
         <>
             <Card className="article">
                 <CardContent>
-                    <div className="article-title">Long Estabilished</div>
-                    <div className="article-dec">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is
-                        that....
+                    <div className="img">
+                        <img src="images/tazza.jpg" alt="" />
                     </div>
+                    <div className="article-title">{props.title}</div>
+                    <div className="article-dec">{props.desc}</div>
                 </CardContent>
-
                 <CardActions className="btns-wrap">
                     <div className="article-data">May 20th 2020</div>
                     <Button className="read-more">Read more</Button>

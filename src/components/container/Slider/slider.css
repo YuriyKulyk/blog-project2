@@ -1,3 +1,33 @@
 .Arrow {
     height: 550px;
 }
+.title-content{
+    position: absolute;
+    bottom: 40%;
+    font-size: 60px;
+    color: #E5E5E5;
+    font-family: 'inter'sans-serif;
+    font-weight: 700;
+    padding: 100px;
+}
+.content {
+    position: absolute;
+    bottom: 35%;
+    font-size: 30px;
+    color: #E5E5E5;
+    font-weight: 400;
+    padding: 100px;
+    font-family: 'inter' sans-serif;
+}
+.wrap {
+    position: absolute;
+    bottom: 25%;
+    padding: 98px;
+}
+.button {
+    color: #E5E5E5;
+    font-size: 15px;
+    font-family: 'inter' sans-serif;
+    font-weight: 400;
+    background-color: black;
+}
