@@ -5,16 +5,16 @@ type Props = {
     title: string
     desc: string
 }
-const ArticleListItem = (props: Props) => {
+const ArticleListItem = ({ title, desc }: Props) => {
     return (
         <>
             <Card className="article">
                 <CardContent>
                     <div className="img">
-                        <img src="images/tazza.jpg" alt="" />
+                        <img src="images/tazza2.jpg" alt="" />
                     </div>
-                    <div className="article-title">{props.title}</div>
-                    <div className="article-dec">{props.desc}</div>
+                    <div className="article-title">{title}</div>
+                    <div className="article-dec">{desc}</div>
                 </CardContent>
                 <CardActions className="btns-wrap">
                     <div className="article-data">May 20th 2020</div>
